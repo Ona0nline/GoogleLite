@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+form{
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  transform: translateY(131.5px) scale(1);
+}
+
+.search-icon{
+  width: 25px;
+  height: 25px;
+  transform: translateX(-740px) translateY(167px);
+}
+
+.search input {
+  background-image: url('assets/computer.png');
+  border-radius: 30px;
+  width: 746px;
+  height: 48px;
+  transform: translateY(170px);
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px rgb(241, 241, 241);
+  padding:0 50px;
+}
+
+@media (max-width:700px) {
+  .search input {
+    border-radius: 30px;
+    width: 449px;
+    height: 48px;
+  }
+}
